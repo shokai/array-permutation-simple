@@ -1,6 +1,6 @@
 {
   "name": "array-permutation-simple",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "return all permutations of array elements",
   "main": "index.js",
   "scripts": {
@@ -23,8 +23,7 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shokai/array-permutation-simple.git"

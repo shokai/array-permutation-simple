@@ -1,3 +1,5 @@
+/* eslint-env mocha */
+
 var assert = require('chai').assert
 var permutation = require('../')
 
@@ -11,7 +13,7 @@ describe('array-permutation', function () {
 
   describe('3 elements array', function () {
     it('return all permutations of array elements', function () {
-      var result = permutation([1,3,5])
+      var result = permutation([1, 3, 5])
       assert.deepEqual(result, [ [ 1, 3, 5 ],
                                  [ 1, 5, 3 ],
                                  [ 3, 1, 5 ],
@@ -50,6 +52,4 @@ describe('array-permutation', function () {
                                  [ 1, 3, 9, 8 ] ])
     })
   })
-
-
 })

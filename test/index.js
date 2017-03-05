@@ -3,7 +3,7 @@
 var assert = require('chai').assert
 var permutation = require('../')
 
-describe('array-permutation', function () {
+describe('array-permutation-simple', function () {
   describe('2 elements array', function () {
     it('return all permutations of array elements', function () {
       var result = permutation([5, 8])

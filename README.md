@@ -1,17 +1,17 @@
-# array-permutation
+# array-permutation-simple
 
 return all permutations of array elements
 
-- https://github.com/shokai/array-permutation
-- https://www.npmjs.com/package/array-permutation
+- https://github.com/shokai/array-permutation-simple
+- https://www.npmjs.com/package/array-permutation-simple
 
-[![CircleCI](https://circleci.com/gh/shokai/array-permutation.svg?style=svg)](https://circleci.com/gh/shokai/array-permutation)
+[![CircleCI](https://circleci.com/gh/shokai/array-permutation-simple.svg?style=svg)](https://circleci.com/gh/shokai/array-permutation)
 
 
 ## Usage
 
 ```js
-var permutation = require('array-permutation')
+var permutation = require('array-permutation-simple')
 
 console.log(permutation([ 1, 3, 5 ]))
 ```

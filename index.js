@@ -15,5 +15,6 @@ module.exports = function (source, callback) {
   }
 
   pickEach([], source)
+  if (typeof callback === 'function') return
   return permutationResult
 }

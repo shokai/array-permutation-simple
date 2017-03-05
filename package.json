@@ -1,6 +1,6 @@
 {
   "name": "array-permutation-simple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "return all permutations of array elements",
   "main": "index.js",
   "scripts": {

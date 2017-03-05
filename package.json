@@ -1,0 +1,19 @@
+{
+  "name": "array-permutation",
+  "version": "0.0.1",
+  "description": "return all permutations of array elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "keywords": [
+    "array",
+    "permutation"
+  ],
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
